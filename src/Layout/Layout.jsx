@@ -3,21 +3,21 @@ import React from "react";
 export default function Layout({ children }) {
   return (
     <>
-      <header className=" text-2xl bg-zinc-700 w-[1000px] px-4 py-4   flex items-center justify-between  rounded-xl">
-        <h1  className="text-2xl text-yellow-400">
-          Book App
-        </h1>
+      <header className=" text-2xl bg-zinc-500 w-[1000px] px-4 py-4   flex items-center justify-between  rounded-xl mt-4">
+        <h1 className="text-2xl text-yellow-400">Book App</h1>
         <div className="flex  gap-2">
-
-          <p className="text-md text-violet-600"> Botostart </p>
+          <p className="text-md text-violet-900 font-bold"> Botostart </p>
           <p>| react js cource </p>
         </div>
-
       </header>
 
-
       {children}
-      <footer>footer</footer>
+
+
+      <footer className=" text-2xl bg-zinc-500 w-[1000px] px-4 py-4   flex items-center justify-center  rounded-xl mt-4">
+      <h1 className="text-2xl text-yellow-400">developed by hasan</h1>
+
+      </footer>
     </>
   );
 }

@@ -1,13 +1,13 @@
 import Layout from "./Layout/Layout";
+import Books from "./components/Books/Books";
+
 
 function App() {
   return (
     <>
       <Layout className="w-full">
-
-              <h1 className="text-3xl font-bold underline">Hello world!</h1>
+        <Books></Books>
       </Layout>
-
     </>
   );
 }
